@@ -11,6 +11,7 @@ import androidx.compose.material3.NavigationBar
 import androidx.compose.material3.NavigationBarItem
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
+import androidx.compose.foundation.layout.padding
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
@@ -27,6 +28,7 @@ import de.dragonschain.offgridmesh.ui.screens.ChannelsScreen
 import de.dragonschain.offgridmesh.ui.screens.MapScreen
 import de.dragonschain.offgridmesh.ui.screens.SosScreen
 import de.dragonschain.offgridmesh.ui.screens.StatusScreen
+import androidx.compose.foundation.layout.padding
 
 private sealed class Tab(val route: String, val label: String, val icon: ImageVector) {
     data object Map : Tab("map", "Karte", Icons.Default.Map)

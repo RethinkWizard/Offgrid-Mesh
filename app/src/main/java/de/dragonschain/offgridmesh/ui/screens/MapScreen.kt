@@ -5,6 +5,8 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
@@ -50,7 +52,7 @@ fun MapScreen(meshManager: MeshManager) {
 @Composable
 private fun NodeCard(node: Node) {
     Card(
-        modifier = Modifier.fillMaxSize(),
+        modifier = Modifier.fillMaxWidth(),
         colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface),
     ) {
         Column(modifier = Modifier.padding(12.dp)) {
@@ -74,7 +76,3 @@ private fun NodeCard(node: Node) {
         }
     }
 }
-
-@Composable
-private fun Row(content: @Composable () -> Unit) =
-    androidx.compose.foundation.layout.Row(verticalAlignment = Alignment.CenterVertically, content = content)
