@@ -1,4 +1,4 @@
-# OFFGRID MESH (Beta))
+# OFFGRID MESH (Beta)
 
 Eigenständige Notfall-Kommunikations-App — funktioniert **komplett offline**,
 ohne Server, ohne Account, ohne Internet zu irgendeinem Zeitpunkt. Kommunikation
