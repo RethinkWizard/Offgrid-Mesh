@@ -19,7 +19,7 @@ Konzept siehe `OFFGRID-MESH-Konzept.docx` (separates Dokument).
 - [x] UI-Grundgerüst (Compose, 4 Screens, Bottom Navigation)
 - [x] Datenmodelle (Node, Channel, Message)
 - [x] `MeshManager`-Interface (Mock-Implementierung, liefert Test-Nodes)
-- [ ] Echte BLE-Discovery (Android `BluetoothLeScanner`)
+- [x] Echte BLE-Discovery (Android `BluetoothLeScanner` + `BluetoothLeAdvertiser`, `BleMeshManager`)
 - [ ] `WifiP2pManager`-Anbindung als Fallback/Ergänzung
 - [ ] Store-and-Forward-Queue (SQLite/Room)
 - [ ] Ende-zu-Ende-Verschlüsselung (X25519 + Double Ratchet + ChaCha20-Poly1305, TOFU-Fingerprint-Abgleich)
@@ -53,7 +53,9 @@ Gleiches Setup wie beim Schwesterprojekt
 - **Gitpod:** Repo-URL mit `https://gitpod.io/#` davor öffnen im Browser
 - **Codespaces:** Auf GitHub → "Code" → "Codespaces" → "Create codespace on main"
 
-Beide installieren automatisch Android SDK + Gradle.
+Beide installieren automatisch Android SDK + Gradle. Der Gradle-Wrapper
+(`gradlew`, `gradlew.bat`, `gradle-wrapper.jar`) liegt bereits im Repo —
+kein zusätzlicher Setup-Schritt nötig.
 
 ### Build & APK erzeugen
 
