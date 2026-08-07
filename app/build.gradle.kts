@@ -11,8 +11,8 @@ android {
         applicationId = "de.dragonschain.offgridmesh"
         minSdk = 26
         targetSdk = 34
-        versionCode = 3
-        versionName = "0.3-prototyp"
+        versionCode = 2
+        versionName = "0.2-prototyp"
     }
 
     buildTypes {

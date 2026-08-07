@@ -1,10 +1,7 @@
 {
   "name": "OFFGRID MESH – Android Dev",
   "image": "mcr.microsoft.com/devcontainers/java:17",
-  "features": {
-    "ghcr.io/devcontainers/features/android-sdk:1": {}
-  },
-  "postCreateCommand": "chmod +x gradlew",
+  "postCreateCommand": "bash .devcontainer/install-android-sdk.sh",
   "customizations": {
     "vscode": {
       "extensions": [
