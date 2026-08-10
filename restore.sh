@@ -81,7 +81,7 @@ mkdir -p '.'
 cat > 'LICENSE' << 'OFFGRID_EOF_MARKER'
 MIT License
 
-Copyright (c) 2026 Dragons Chain
+Copyright (c) 2026 Dragons - Chain
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
