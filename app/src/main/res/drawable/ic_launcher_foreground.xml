@@ -1,0 +1,13 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- TODO: echtes App-Icon. Platzhalter: einfacher Mesh-Punkt -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M54,34 L74,54 L54,74 L34,54 Z" />
+    <path
+        android:fillColor="#D32F2F"
+        android:pathData="M54,48 a6,6 0 1,0 0.1,0 Z" />
+</vector>

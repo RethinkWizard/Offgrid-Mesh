@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">OFFGRID MESH</string>
+
+    <string name="tab_map">Karte</string>
+    <string name="tab_sos">SOS</string>
+    <string name="tab_channels">Kanäle</string>
+    <string name="tab_status">Status</string>
+
+    <string name="map_no_nodes">Keine Nodes in Reichweite</string>
+    <string name="map_last_seen">zuletzt gesehen</string>
+
+    <string name="sos_hold_hint">3 Sekunden gedrückt halten für Notfall-Broadcast</string>
+    <string name="sos_armed">SOS AKTIV — wird gesendet</string>
+    <string name="sos_button">SOS</string>
+
+    <string name="channels_family">Familie</string>
+    <string name="channels_team">Team</string>
+    <string name="channels_broadcast">Broadcast-Allgemein</string>
+
+    <string name="status_battery_mode">Akku-Modus</string>
+    <string name="status_mode_normal">Normal</string>
+    <string name="status_mode_saver">Spar</string>
+    <string name="status_mode_ultra">Ultra-Spar</string>
+    <string name="status_nodes_seen">Nodes in Reichweite</string>
+    <string name="status_range_info">Reichweite (typisch)</string>
+</resources>

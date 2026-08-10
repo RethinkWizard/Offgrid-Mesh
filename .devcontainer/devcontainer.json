@@ -1,0 +1,13 @@
+{
+  "name": "OFFGRID MESH – Android Dev",
+  "image": "mcr.microsoft.com/devcontainers/java:17",
+  "postCreateCommand": "bash .devcontainer/install-android-sdk.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack",
+        "adelphes.android-dev-ext"
+      ]
+    }
+  }
+}
